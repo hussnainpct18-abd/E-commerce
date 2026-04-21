@@ -1,0 +1,295 @@
+html{
+    color: black;
+    font-size: 16px;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+     font-family: 'Poppins', sans-serif;
+
+}
+.top1{
+   
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    font-size:10px;
+}
+.info-about-brand{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-evenly;
+    background-color: black;
+    color: white;
+    font-size:smaller;
+    gap: 20px;
+}
+.logo{
+     display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-size:smaller;
+    gap: 15px;
+}
+.top2{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    color: white;
+    border: solid 1px lightgray;
+}
+.top2>.name{
+    font-size:25px;
+    margin: 0;
+    padding: 0;
+    color: lightgreen;  
+}
+
+
+.list0{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    color: black;
+    padding-top: 50px;
+    gap: 60px;
+} 
+.list0>a{
+    color: black;
+    text-decoration: none;
+}
+    
+.icons{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    color: black;
+    padding-top: 50px;
+    gap: 20px;
+}
+.top3{
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: #eeeeee;
+    color: black;
+    font-size:13px;
+    margin: auto;
+    gap: 0px;
+    height:65lvh;
+}
+.product{
+    width: 350px;
+   margin-right: 300px;
+}
+.pic{
+    width:100%;
+    
+}
+
+.info{
+    margin: auto;
+    margin-right: 0px;
+}
+.category{
+    text-align: center;
+    font-size: small;
+
+}
+.category>h1{
+    font-weight: 100;
+}
+.category>p{
+    font-weight: 100;
+}
+.top4{
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 80px;
+    justify-content: center;
+    color: white;
+    font-size:10px; 
+    
+}
+.center{
+    margin-left: 10px;
+}
+
+.feature>h4{
+    text-align: center;
+    color: black;
+}
+button{
+     align-content: center;
+     background-color: lightgreen;
+     color: white;
+     cursor: pointer;
+     border-radius: 2px;
+     border: none;
+     padding: 5px;
+     
+}
+.img{
+    width: 200px;
+    border-radius: 51%;
+     border: lightgrey solid 1px;
+     overflow: hidden;
+}
+.pick{
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    transition-property:transform;
+    transform: scale(1);
+
+}
+.img:hover{
+    transform: scale(1.2);
+    transition-duration: 0.5s;
+    
+}
+.top0{
+    text-align: center;
+    padding-top: 30px;
+     margin-bottom: 0;
+}
+.h1{
+    font-weight: 100;
+}
+.p{
+    font-weight: 100;
+    font-size: smaller;
+}
+.whole{
+    background-color: white;
+    border: solid 1px lightgray;
+    margin-bottom: 80px;
+}
+
+.top5{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 0;
+}
+
+.star{
+    color: yellow;
+    padding: 8px;
+}
+.price{
+    font-weight: 100;
+    font-size: small;
+     padding: 8px;
+}
+.top6{
+     display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width: 100%;
+   
+}
+.product-image{
+    width: 325px;
+}
+.pad{
+    padding: 5px;
+}
+.to{
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    height: 100%;
+}
+.name-pro{
+    font-size: larger;
+    font-weight:bolder;
+}
+.main{
+    background-color: rgba(0, 0, 0, 0.872);
+    color: whitesmoke;
+}
+.top7{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 100%;
+    
+}
+.head{
+    margin: 0;
+    border-bottom: solid 1px grey;
+    padding: 80px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    
+}
+.list{
+  
+    margin: 0;
+    padding: 70px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: whitesmoke;
+}
+.list ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    width: 100%;
+}
+.list> ul li{
+    margin:10px ;
+    font-size: small;
+}
+.final{
+     border-bottom: solid 1px grey;
+}
+.top8{
+     display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-around;
+    width: 100%;
+    gap: 200px;
+}
+.end{
+    margin: 10px;
+}
+.btn{
+    margin: 10px;
+}
+input{
+    height: 25px;
+    position: relative;
+    z-index: 1;
+    width: 235px;
+   background-color: rgba(0, 0, 0, 0.872);
+   border: none;
+   color: white;
+}
+.subscribe{
+    position: absolute;
+    z-index: 2;
+    left: 81% ;
+    color: white;
+    border: none;
+    height:28px;
+    background-color: lightgreen;
+    cursor: pointer;
+    border-radius: 0;
+}
+footer{
+    background-color: black;
+    padding: 8px;
+    color: whitesmoke;
+    font-size: x-small;
+    padding-left: 15%;
+}
